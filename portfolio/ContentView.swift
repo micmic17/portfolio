@@ -8,9 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var showSidebar: Bool = false
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        SideBarStack(sidebarWidth: 125, showSidebar: $showSidebar) {
+            Text("Ola")
+        } content: {
+            MainView(showSidebar: $showSidebar)
+        }.edgesIgnoringSafeArea(.all)
     }
 }
 

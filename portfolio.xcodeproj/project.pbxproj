@@ -11,6 +11,8 @@
 		2410AC2C26423791000C16D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2410AC2B26423791000C16D8 /* ContentView.swift */; };
 		2410AC2E26423792000C16D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2410AC2D26423792000C16D8 /* Assets.xcassets */; };
 		2410AC3126423792000C16D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2410AC3026423792000C16D8 /* Preview Assets.xcassets */; };
+		2410AC39264240A2000C16D8 /* SideBarStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2410AC38264240A2000C16D8 /* SideBarStack.swift */; };
+		2410AC3B26425219000C16D8 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2410AC3A26425219000C16D8 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		2410AC2D26423792000C16D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2410AC3026423792000C16D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2410AC3226423792000C16D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2410AC38264240A2000C16D8 /* SideBarStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarStack.swift; sourceTree = "<group>"; };
+		2410AC3A26425219000C16D8 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				2410AC2926423791000C16D8 /* portfolioApp.swift */,
 				2410AC2B26423791000C16D8 /* ContentView.swift */,
+				2410AC3A26425219000C16D8 /* MainView.swift */,
+				2410AC38264240A2000C16D8 /* SideBarStack.swift */,
 				2410AC2D26423792000C16D8 /* Assets.xcassets */,
 				2410AC3226423792000C16D8 /* Info.plist */,
 				2410AC2F26423792000C16D8 /* Preview Content */,
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2410AC2C26423791000C16D8 /* ContentView.swift in Sources */,
+				2410AC3B26425219000C16D8 /* MainView.swift in Sources */,
+				2410AC39264240A2000C16D8 /* SideBarStack.swift in Sources */,
 				2410AC2A26423791000C16D8 /* portfolioApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
